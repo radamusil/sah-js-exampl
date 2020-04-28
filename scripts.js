@@ -1,6 +1,23 @@
 // 4th part
 
 $(`div`).css(`background`,`purple`);
+$('.first').text('zmena');
+$('.third').css('border-color','yellow');
+
+
+for (let i = 0; i < 10; i = i + 2) {
+    console.log(i);
+  };
+
+  for (let i = 0; i < 10; i++) {
+    console.log(i);
+  };
+
+  let printNumbers = (n) => {
+    for (let i = 0; i < n; i++) {
+      console.log(i);
+    }
+  }
 
 
 
